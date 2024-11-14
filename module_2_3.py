@@ -7,4 +7,4 @@ while index < len(my_list):
     if my_int >= 0:
         continue
     else:
-        break
+    break
