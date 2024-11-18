@@ -3,6 +3,8 @@ index = 0
 while index < len(my_list):
     print(my_list[index])
     index += 1
+    if index >= len(my_list):
+        break
     my_int = my_list[index]
     if my_int >= 0:
         continue
